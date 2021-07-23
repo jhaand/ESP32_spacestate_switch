@@ -3,11 +3,11 @@ the internet and make sure that the whole of hackerdom can see it.
 
 # Introduction
 
-Most Hackerspaces andmakerspaces want the rest of the world to know that
-people are there. This is done via the Spacestate switch near the
-entrance of the door.  When someone comes in, they flip the switch and a
+Most Hackerspaces and makerspaces want the rest of the world to know that
+people are actually there. This works via the Spacestate switch near the
+entrance of the door. When someone comes in, they flip the switch and a
 websites like https://mapall.space and https://hackerspaces.nl can show
-that the space is open.  When the last person leaves, flip the switch
+that the space is open. When the last person leaves, flip the switch
 off and the rest of the world can see that nobody's home. 
 
 # Hardware
@@ -59,7 +59,7 @@ it remains closed. These should consist of small PNG files that can be
 reached over the internet.  
 
 https://spaceapi.io has more information on how to create your own
-spaceapi.json file.  You can find all the other spaceapi.json files
+spaceapi.json file. You can find all the other spaceapi.json files
 world wide in the spaceapi directory
 https://github.com/SpaceApi/directory 
 
