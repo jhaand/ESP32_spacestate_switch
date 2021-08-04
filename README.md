@@ -43,6 +43,20 @@ to everyone. The server needs to be world wide reachable and
 configurable by the deployer of the spacestate. Fortunately the traffic
 will not be that high. So it's even possible to run it at home. 
 
+As a real IOT project the software needs to be configured in several places. 
+  * Your own webserver
+  * The NodeMCU with ESP32
+  * The global spaceapi repository
+
+It doesnt' matter where your start with these activities, as long as it all 
+fits together in the end. It's the easiest to start with the PHP part and 
+then the NodeMCU. Then you can check that the NodeMCU can talk to the 
+webserver. After that you can update your `spaceapi.json` in the PHP code to 
+check if the output file is updated correctly. 
+Then you can can update the global spaceapi registry.   
+Along the way, several issues will pop up before everything runs fine. But that
+remains part of development. 
+
 ## SpaceAPI.json
 The webserver will serve a file with the most important data about your
 makerspace. Not just if someone's there or not. The spaceapi.json for
